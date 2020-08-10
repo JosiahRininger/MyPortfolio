@@ -14,7 +14,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Josiah Rininger</h1>
-        <p>Positive, energetic iOS Developer who loves fitness</p>
+        <p>Positive, Energetic iOS Developer at iHeartMedia</p>
     <a href={pdf}>
           <Resume
           title="Download Resume"
@@ -106,6 +106,7 @@ const IndexPage = () => (
         <h2>Experience</h2>
         <ExperienceCell
           image={require("../images/iheart-logo.jpg")}
+          link="https://www.iheartmedia.com"
           company="iHeartMedia"
           position="iOS Engineer"
           time="2020 Apr - Current"
@@ -113,6 +114,7 @@ const IndexPage = () => (
         />
         <ExperienceCell
           image={require("../images/TWDC.png")}
+          link="https://thewaltdisneycompany.com"
           company="The Walt Disney Company"
           position="iOS Developer Intern"
           time="2020 Jan - 2020 Apr"
@@ -120,6 +122,7 @@ const IndexPage = () => (
         />
         <ExperienceCell
           image={require("../images/mm.png")}
+          link="https://www.mobile-mentor.com"
           company="Mobile Mentor"
           position="iOS Developer Intern"
           time="2019 Apr - 2020 Feb"
@@ -127,6 +130,7 @@ const IndexPage = () => (
         />
         <ExperienceCell
           image={require("../images/mtsu-logo.png")}
+          link="https://www.mtsu.edu"
           company="Middle Tennessee State University"
           position="iOS Developer"
           time="2019 Jan - Current"

@@ -3,6 +3,7 @@ import styled from "styled-components"
 
 const ExperienceCell = props => (
   <Container>
+    <a target='_blank'  href={props.link}>
     <TopWrapper>
       <Logo src={props.image}></Logo>
       <Time>{props.time}</Time>
@@ -12,6 +13,7 @@ const ExperienceCell = props => (
       <Position>{props.position}</Position>
       <Details>{props.details}</Details>
     </DetailsWrapper>
+    </a>
   </Container>
 )
 export default ExperienceCell
@@ -54,7 +56,7 @@ const Logo = styled.img`
   margin: 20px 20px 0px;
 `
 const Company = styled.h3`
-  color: "black";
+  color: black;
   margin: 0;
   font-size: 30px;
 
@@ -63,7 +65,7 @@ const Company = styled.h3`
   }
 `
 const Position = styled.h3`
-  color: "black";
+  color: black;
   font-size: 28px;
   margin-top: 10px;
   font-weight: 200;
@@ -80,6 +82,7 @@ const Details = styled.p`
   color: rgba(0, 0, 0, 0.8);
   margin: 0;
   font-size: 20px;
+  font-weight: 430;
 
   @media (max-width: 640px) {
     font-size: 16px;
