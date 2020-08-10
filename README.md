@@ -1,6 +1,6 @@
 # MyPortfolio
 
-Check it out [here](josiahrininger.com)!
+Check it out [here](https://josiahrininger.com)!
 
 # gatsby-starter-default
 The default Gatsby starter.
