@@ -126,7 +126,7 @@ const IndexPage = () => (
           company="Mobile Mentor"
           position="iOS Developer Intern"
           time="2019 Apr - 2020 Feb"
-          details="At Mobile Mentor’s Nashville branch, a company who’s primary focus at the time was to build iOS apps for healthcare companies on contract, I got hired on with the task of building their entire client-facing Zendesk in-House iOS application and to contribute to their team of 6 iOS Developers on select features. While on the team, I go the chance to build many features for physician and client facing applications that would be used for one of the nation’s largest healthcare. On the in-House application I built, I had many responsibilities that led me to working with multiple tools, frameworks, services, such as, AzureAD Identity, Azure Identity Platform, Azure Blob Storage, Server-less Azure Functions, MSAL & ADAL Authentication Libraries, Urban Airship, JSON Web Tokens, OAuth 2.0, OpenID Connect, Zendesk SDK, Firebase Analytics and Crashlytics."
+          details="At Mobile Mentor’s Nashville branch, a company who’s primary focus at the time was to build iOS apps for healthcare companies on contract, I got hired on with the task of building their entire client-facing Zendesk in-House iOS application and to contribute to their team of 6 iOS Developers on select features. While on the team, I got the chance to build many features for physician and client facing applications that would be used for one of the nation’s largest healthcare companies. On the in-House application I built, I had many responsibilities that led me to working with multiple tools, frameworks, and services, such as, AzureAD Identity, Azure Identity Platform, Azure Blob Storage, Server-less Azure Functions, MSAL & ADAL Authentication Libraries, Urban Airship, JSON Web Tokens, OAuth 2.0, OpenID Connect, Zendesk SDK, and Firebase Analytics/Crashlytics."
         />
         <ExperienceCell
           image={require("../images/mtsu-logo.png")}
@@ -134,7 +134,7 @@ const IndexPage = () => (
           company="Middle Tennessee State University"
           position="iOS Developer"
           time="2019 Jan - Current"
-          details="At MTSU, the university that I’m currently attending, I’m working on their Mobile Team as an iOS Developer. This was my first full-time iOS Developing position and gave me a great foundation in iOS Development. I have contributed to a team of 9 developers that maintain the iOS and Android mobile applications that are used by the MTSU student body (30k+ students). I have worked mainly on the new version of MTSU Mobile, which is a brand new application using only the latest tools in iOS Development. During my time on the team, I’ve gotten the chance to contribute to a large codebase using an MVVM architecture and reactive programming through RxSwift."
+          details="At MTSU, the university that I’m currently attending, I’m working on their Mobile Team as an iOS Developer. This was my first full-time iOS Developing position and gave me a great foundation in iOS Development. I have contributed to a team of 9 developers that maintain the iOS and Android mobile applications that are used by the MTSU student body (30k+ students). I have worked mainly on the new version of MTSU Mobile, which is a brand new application our team is building from the ground up. During my time on the team, I’ve gotten the chance to contribute to a large codebase using an MVVM architecture and reactive programming through RxSwift."
         />
       </div>
 
