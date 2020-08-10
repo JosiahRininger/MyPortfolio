@@ -37,23 +37,27 @@ const IndexPage = () => (
             title="iHeartRadio"
             link="https://apps.apple.com/us/app/iheart-radio-music-podcasts/id290638154"
             text="App Store Link"
+            disc="worked on"
             image={require("../images/ihr_Appstore_icon.png")}
           />
           <Card
             title="My Disney Experience"
             link="https://apps.apple.com/us/app/my-disney-experience/id547436543"
             text="App Store Link"
+            disc="worked on"
             image={require("../images/app-icon-mdx-1024.png")}
           />
           <Card
             title="Disneyland®"
             text="App Store Link"
+            disc="worked on"
             link="https://apps.apple.com/us/app/disneyland/id1022164656"
             image={require("../images/app-icon-dlr-1024.png")}
           />
           <Card
             title="MTSU Mobile"
             text="App Store Link"
+            disc="worked on"
             link="https://apps.apple.com/us/app/mtsu-mobile/id494081469"
             image={require("../images/mtsu-app-icon.png")}
           />
@@ -61,12 +65,14 @@ const IndexPage = () => (
           <Card
             title="m.power"
             text="Company Website"
+            disc="built on contract"
             link="https://www.mobile-mentor.com"
             image={require("../images/m.power-app-icon.png")}
           />
           <Card
             title="Intervally"
             text="Github Link"
+            disc="in progress"
             link="https://github.com/JosiahRininger/Intervally"
             image={require("../images/intervally-app-icon.png")}
           />
@@ -74,6 +80,7 @@ const IndexPage = () => (
           <Card
             title="Spyfall ∙ Mobile"
             text="App Store Link"
+            disc="built & own"
             link="https://apps.apple.com/us/app/spyfall-mobile/id1499561444"
             image={require("../images/spyfall-app-icon.png")}
           />
@@ -81,6 +88,7 @@ const IndexPage = () => (
           <Card
             title="Spyfall+ ∙ Mobile"
             text="App Store Link"
+            disc="built & own"
             link="https://apps.apple.com/us/app/spyfall-mobile/id1501939797"
             image={require("../images/spyfallplus-app-icon.png")}
           />
@@ -88,6 +96,7 @@ const IndexPage = () => (
           <Card
             title="BMI Calculator"
             text="App Store Link"
+            disc="built & own"
             link="https://apps.apple.com/us/app/bmi-calculator-fast-simple/id1467544257"
             image={require("../images/bmi-app-icon.png")}
           />
