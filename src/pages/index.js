@@ -5,6 +5,7 @@ import Card from "../components/Card"
 import Wave from "../components/Wave"
 import styled from "styled-components"
 import ExperienceCell from "../components/ExperienceCell"
+import ArticleCell from "../components/ArticleCell"
 import Contact from "../components/Contact"
 import Resume from "../components/Resume"
 import pdf from '../files/Resume.pdf'
@@ -109,23 +110,23 @@ const IndexPage = () => (
           link="https://www.iheartmedia.com"
           company="iHeartMedia"
           position="iOS Engineer"
-          time="2020 Apr - Current"
-          details="At iHeartMedia, the parent company of iHeartRadio, I work on a team of developers as an Associate iOS Engineer utilizing an agile workflow. I work primarily on maintaining and updating the flagship iOS Application. We use many tools and frameworks, such as, Swift, Objective-C, Realm, TestFlight, Jenkins, BAPromise, and much more."
+          time="Apr 2020 - Current"
+          details="At iHeartMedia, the parent company of iHeartRadio, I work on a team of developers as an Associate iOS Engineer utilizing an agile workflow. I work primarily on maintaining and updating the flagship iOS Application. We use many tools and frameworks, such as, Swift, Objective-C, Realm, TestFlight, Jenkins, BAPromise, AppCenter, and much more."
         />
         <ExperienceCell
           image={require("../images/TWDC.png")}
           link="https://thewaltdisneycompany.com"
           company="The Walt Disney Company"
           position="iOS Developer Intern"
-          time="2020 Jan - 2020 Apr"
-          details="Spring of 2020, I had the privilege of being a Professional Intern at The Walt Disney Company. During the internship, I worked as an iOS Developer Intern on the PhotoPass Team. PhotoPass is a feature in the Disney World and Disneyland apps that allows users to access photos taken at the park. The most unique part of this role was getting to work on a dynamic framework in conjunction with many other frameworks that other teams at Disney managed which are all used in Disney’s flagship park applications. Working with my team gave me the chance to learn about many tools and frameworks, including Carthage, Charles, Accessibility Inspector, and many iOS photo editing tools."
+          time="Jan 2020 - Apr 2020"
+          details="Spring of 2020, I had the privilege of being a Professional Intern at The Walt Disney Company. During the internship, I worked as an iOS Developer Intern on the PhotoPass Team. PhotoPass is a feature in the Disney World and Disneyland apps that allows users to access photos taken at the park. The most unique part of this role was getting to work on a dynamic framework in conjunction with many other frameworks that other teams at Disney managed which are all used in Disney’s flagship park applications. Working with my team gave me the chance to learn about many tools and frameworks, including Carthage, Charles, Accessibility Inspector, and many iOS photo editing libraries."
         />
         <ExperienceCell
           image={require("../images/mm.png")}
           link="https://www.mobile-mentor.com"
           company="Mobile Mentor"
           position="iOS Developer Intern"
-          time="2019 Apr - 2020 Feb"
+          time="Apr 2019 - Feb 2020"
           details="At Mobile Mentor’s Nashville branch, a company who’s primary focus at the time was to build iOS apps for healthcare companies on contract, I got hired on with the task of building their entire client-facing Zendesk in-House iOS application and to contribute to their team of 6 iOS Developers on select features. While on the team, I got the chance to build many features for physician and client facing applications that would be used for one of the nation’s largest healthcare companies. On the in-House application I built, I had many responsibilities that led me to working with multiple tools, frameworks, and services, such as, AzureAD Identity, Azure Identity Platform, Azure Blob Storage, Server-less Azure Functions, MSAL & ADAL Authentication Libraries, Urban Airship, JSON Web Tokens, OAuth 2.0, OpenID Connect, Zendesk SDK, and Firebase Analytics/Crashlytics."
         />
         <ExperienceCell
@@ -133,8 +134,36 @@ const IndexPage = () => (
           link="https://www.mtsu.edu"
           company="Middle Tennessee State University"
           position="iOS Developer"
-          time="2019 Jan - Current"
+          time="Jan 2019 - Current"
           details="At MTSU, the university that I’m currently attending, I’m working on their Mobile Team as an iOS Developer. This was my first full-time iOS Developing position and gave me a great foundation in iOS Development. I have contributed to a team of 9 developers that maintain the iOS and Android mobile applications that are used by the MTSU student body (30k+ students). I have worked mainly on the new version of MTSU Mobile, which is a brand new application our team is building from the ground up. During my time on the team, I’ve gotten the chance to contribute to a large codebase using an MVVM architecture and reactive programming through RxSwift."
+        />
+      </div>
+
+      <div id={"articles"} className="ArticlesSection">
+        <h2>Articles</h2>
+        <ArticleCell
+          image={require("../images/BPLogo.png")}
+          link="https://medium.com/better-programming/how-to-become-an-ios-developer-c542bf02fd2"
+          company="How to Become an iOS Developer"
+          position="A huge list of helpful resources to help you get started as an iOS developer today"
+          time="Aug 2020"
+          details="Selected by Medium Curators"
+        />
+        <ArticleCell
+          image={require("../images/MediumLogo.png")}
+          link="https://medium.com/@josiahrininger/how-do-spotify-and-apple-music-pay-artists-media-143189b12ef9"
+          company="How do Spotify and Apple Music pay artists? — Media"
+          position="Distribution model of large music streaming services"
+          time="Dec 2020"
+          details=""
+        />
+        <ArticleCell
+          image={require("../images/BPLogo.png")}
+          link="https://medium.com/better-programming/how-to-programmatically-add-shadow-rounded-corners-to-a-view-swift-df004ac98fa5"
+          company="How To Programmatically Add Shadow and Rounded Corners to a View — Swift"
+          position="It’s not always enough to just define your properties and add a corner radius"
+          time="Aug 2019"
+          details=""
         />
       </div>
 
