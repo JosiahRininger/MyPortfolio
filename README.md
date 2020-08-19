@@ -33,3 +33,4 @@ gatsby develop
 - React
 - JavaScript
 - Gatsby
+- Firebase Hosting
