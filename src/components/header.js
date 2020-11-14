@@ -47,8 +47,8 @@ class Header extends React.Component {
         <div className='HeaderGroup'>
           <Link to="/"><img src={require('../images/logo-swift.png')} width="30" /></Link>
           <Link to='/#about'>About</Link>
-          <Link to='/#projects'>Projects</Link>
           <Link to='/#experience'>Experience</Link>
+          <Link to='/#applications'>Apps</Link>
           <Link to='/#articles'>Articles</Link>
           <Link to='/#contact'>Contact</Link>
         </div>
