@@ -8,7 +8,7 @@ import ExperienceCell from "../components/ExperienceCell"
 import ArticleCell from "../components/ArticleCell"
 import Contact from "../components/Contact"
 import Resume from "../components/Resume"
-import pdf from '../files/Resume.pdf'
+import pdf from '../files/JosiahRiningerResume.pdf'
 
 const IndexPage = () => (
   <Layout>
@@ -16,7 +16,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Josiah Rininger</h1>
         <p>Positive, Energetic iOS Developer at iHeartMedia</p>
-    <a href={pdf}>
+    <a href={pdf} download>
           <Resume
           title="Download Resume"
         /></a>
@@ -26,7 +26,7 @@ const IndexPage = () => (
         <h2>About</h2>
         <p>
         Hello, my name’s Josiah Rininger and I’m an iOS Developer!
-        In December 2020, I will be graduating from MTSU with a degree in Computer Science and a double minor in Mathematics and Health & Human Performance.
+        Last year, I graduated from MTSU with a degree in Computer Science and a double minor in Mathematics and Health & Human Performance.
         I’m also a super positive, high-energy fitness nut who is extremely passionate about learning.
         I'm always in constant pursuit of expanding my knowledge with every opportunity I get so feel free to reach out or connect with me on LinkedIn!
         </p>
@@ -40,7 +40,7 @@ const IndexPage = () => (
           company="iHeartMedia"
           position="iOS Engineer"
           time="Apr 2020 - Current"
-          details="At iHeartMedia, the parent company of iHeartRadio, I work on a team of developers as an Associate iOS Engineer utilizing an agile workflow. I work primarily on maintaining and updating the flagship iOS Application with a high focus on monetization and have had the opportunity to build out entire features. We use many tools and frameworks, such as Swift, Objective-C, Realm, TestFlight, Jenkins, BAPromise, AppCenter, and much more."
+          details="At iHeartMedia, the parent company of iHeartRadio, I work on a team of developers as an Associate iOS Engineer utilizing an agile workflow. I work primarily on maintaining and updating the flagship iOS and watchOS applications which are used by tens of millions of people all over the world. My team has a high focus on monetization and innovation which has given me the opportunity to build out entire features, such as implementing Dark Mode support and refactoring for new advertising services. We use many tools and frameworks, such as Swift, Objective-C, Realm, SwiftUI, TestFlight, Jenkins, AppCenter, and much more."
         />
         <ExperienceCell
           image={require("../images/TWDC.png")}
